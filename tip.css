@@ -1,0 +1,53 @@
+html, body, .container-fluid {
+    width: 100%;
+    height: 100%;
+}
+
+.white{
+    width: 50px;
+    height: .5em;
+    border: 0; border-top: 3px solid white;
+}
+
+.container-fluid,
+.overlay:before {
+    background: url(https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/123644439_818362085632928_3370130586015235878_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHgyQRxlFIfwLB1LUBDYVJCJiahmBi42J0mJqGYGLjYnWYdTLA98HZv6uCSyRuDQXA21p1fFhyGD4nMc5a8BIfS&_nc_ohc=tKngeUIb_XIAX-UBBeN&_nc_ht=scontent.fcpt7-1.fna&oh=cd167844ea9a0f90aa7329b26d49527d&oe=5FD11686) no-repeat fixed 0 0 / cover;
+}
+
+.card {
+    color: black;
+}
+
+.container-fluid {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    margin: 0 auto;
+    max-width: 768px;
+    overflow: hidden;
+    padding: 50px;
+    position: relative;
+    color: rgb(192, 164, 164);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    z-index: 0;
+}
+
+.overlay:before {
+    content: '';
+    filter: blur(30px);
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+#bill-card {
+    display: none;
+    background: rgb(252, 173, 173);
+}
