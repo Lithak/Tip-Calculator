@@ -6,12 +6,12 @@ html, body, .container-fluid {
 .white{
     width: 50px;
     height: .5em;
-    border: 0; border-top: 3px solid white;
+    border: 0; border-top: 3px solid rgb(77, 75, 75);
 }
 
 .container-fluid,
 .overlay:before {
-    background: url(https://scontent.fcpt7-1.fna.fbcdn.net/v/t1.0-9/123644439_818362085632928_3370130586015235878_n.jpg?_nc_cat=100&ccb=2&_nc_sid=09cbfe&_nc_eui2=AeHgyQRxlFIfwLB1LUBDYVJCJiahmBi42J0mJqGYGLjYnWYdTLA98HZv6uCSyRuDQXA21p1fFhyGD4nMc5a8BIfS&_nc_ohc=tKngeUIb_XIAX-UBBeN&_nc_ht=scontent.fcpt7-1.fna&oh=cd167844ea9a0f90aa7329b26d49527d&oe=5FD11686) no-repeat fixed 0 0 / cover;
+    background-color: #f9bbf9;
 }
 
 .card {
@@ -30,7 +30,7 @@ html, body, .container-fluid {
     overflow: hidden;
     padding: 50px;
     position: relative;
-    color: rgb(192, 164, 164);
+    color: rgb(42, 44, 44);
     font-family: 'Lato', sans-serif;
     text-align: center;
     z-index: 0;
@@ -38,7 +38,7 @@ html, body, .container-fluid {
 
 .overlay:before {
     content: '';
-    filter: blur(30px);
+    filter: blur(70px);
     height: 100%;
     left: 0;
     position: absolute;
